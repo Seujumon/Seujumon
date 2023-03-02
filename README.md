@@ -9,7 +9,7 @@ La programación combina dos cosas que me gustan mucho: **resolver problemas y j
 
 Como en un juego (mis favoritos son los cooperativos) la programación me invita a resolver un problema con las herramientas con que cuento, y aún si no consigo la victoria inmediatemente, de cada intento obtengo aprendizajes que me servirán para mi siguiente partida. 
 
-![The_Big_Book_of_Madness](https://cf.geekdo-images.com/Gedf_SM_LDWGvQ_nf1zP1g__imagepage/img/hlirbHQwHFDc6yoBW7ChONldLao=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7378369.png?auto=format&fit=clip&q=40&w=100) 
+![Arquitectos_del_reino_del_oeste](https://cf.geekdo-images.com/Gedf_SM_LDWGvQ_nf1zP1g__imagepage/img/hlirbHQwHFDc6yoBW7ChONldLao=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7378369.png?auto=format&fit=clip&q=40&w=100) 
 
 ## Hasta el momento concluí los siguientes cursos: 
 
@@ -51,3 +51,5 @@ Web: https://otakustw.wixsite.com/otakussintecho
 * Comics 🕸️
 * Viajar ✈️
 
+
+![Shobu](https://cf.geekdo-images.com/ChsD9NOlNaasadu793M7vQ__imagepage/img/27xAn41juFDj3XAT-28mjG7IGXo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7378387.png?auto=format&fit=clip&q=40&w=100) 
