@@ -1,31 +1,32 @@
-# Hola, soy Juan Seura. 
+# Hola, soy Juan Seura 🏫 🇦🇷 🎲 
 
-Desde 2008 trabajo como **Profesor de Historia** y desde 2011 me dedico a la **Coordinación de Eventos** de cultura audiovisual contemporánea. Desde enero del 2023 comencé a estudiar **Programación**. 
+Desde 2008 trabajo como **Profesor de Historia** 🏫 y desde 2011 me dedico a la **Coordinación de Eventos** 🥳 de cultura audiovisual contemporánea. Desde enero del 2023 comencé a estudiar **Programación** 🖥️. 
 
 ## ¿Por qué me interesa la programación? 
-La programación combina dos cosas que me gustan mucho: **resolver problemas y jugar**. 
+La programación combina dos cosas que me gustan mucho: **resolver problemas y jugar** 🎲. <br>
 Como en un juego (mis favoritos son los cooperativos) la programación me invita a resolver un problema con las herramientas con que cuento, y aún si no consigo la victoria inmediatemente, de cada intento obtengo aprendizajes que me servirán para mi siguiente partida. 
 
 ## Hasta el momento concluí los siguientes cursos: 
 
-* Curso de Introducción a la Programación en **EGG**: **Pseint**, **Lógica de Programación**.  
-* Curso Universidad HTML de Ubaldo Acosta en **UDEMY**: **HTML**, **CSS**
-* Introducción a la programación con **Python** de Pablo Belmar Apablaza en **HUAWEI**: Python. 
+🥚 Curso de Introducción a la Programación en **EGG**: **Pseint**, **Lógica de Programación**.  <br>
+🕸️ Curso Universidad HTML de Ubaldo Acosta en **UDEMY**: **HTML**, **CSS**<br>
+🐍 Introducción a la programación con **Python** de Pablo Belmar Apablaza en **HUAWEI**: Python. <br>
 
 ## Actualmente estudio en:  
-* 1ra etapa del Curso de Programación **Full-Stack** en **EGG**: **Git y GitHub, Java, POO.** 
-* Curso de Java en el programa **Codo a Codo**: **HTML, CSS, Bootstrap, JavaScript, Git y GitHub, MySql, Java, POO.**
-* Bootcamp **Full-stack JavaScript Developer** de Guillermo Rodas en **Undefined Academy**. 
+🥚 1ra etapa del Curso de Programación **Full-Stack** en **EGG**: **Git y GitHub, Java, POO.** <br>
+☕ Curso de Java en el programa **Codo a Codo**: **HTML, CSS, Bootstrap, JavaScript, Git y GitHub, MySql, Java, POO.**<br>
+🐚 Bootcamp **Full-stack JavaScript Developer** de Guillermo Rodas en **Undefined Academy**. <br>
 
 ## Comunidades en las que participo: 
 
 #### Comunidad Boardgamera Argentina: 
 
-Grupo argentino para la discusión de temas relacionados a los juegos de mesa modernos, su producción y desarrollo. 
-https://linktr.ee/cbarg
+🎲 Grupo argentino para la discusión de temas relacionados a los juegos de mesa modernos, su producción y desarrollo. <br>
+Lintree: https://linktr.ee/cbarg
 
 #### Otakus Sin Techo: 
-Organización de la ciudad de Trelew, dedicada a la organización de eventos relacionados a la cultura audiovisual contemporánea, originariamente de origen japonés. 
+👺 Organización de la ciudad de Trelew, dedicada a la organización de eventos relacionados a la cultura audiovisual contemporánea, originariamente de origen japonés. <br>
+Web: https://otakustw.wixsite.com/otakussintecho
 
 ## Otros intereses: 
 * Juegos de Mesa Modernos. 
