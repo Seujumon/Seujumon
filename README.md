@@ -1,7 +1,6 @@
 # Hola, soy Juan Seura 🏫 🇦🇷 🎲 
 
-![](https://cf.geekdo-images.com/tH-dDVwlz_WhE4jMi8yNTg__imagepagezoom/img/re8ey3wdQzGqT7Wyvw6uwEkewA4=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7379384.png)
-#### Desde 2008 trabajo como **Profesor de Historia** 🏫 y a partir del 2011 me dedico a la **Coordinación de Eventos** 🥳 de cultura audiovisual contemporánea. Pero tenía una deuda pendiente conmigo mismo, y en enero del 2023 comencé mis estudios en **Programación** 🖥️. 
+### Desde 2008 trabajo como **Profesor de Historia** 🏫 y a partir del 2011 me dedico a la **Coordinación de Eventos** 🥳 de cultura audiovisual contemporánea. Pero tenía una deuda pendiente conmigo mismo, y en enero del 2023 comencé mis estudios en **Programación** 🖥️.
 
 ## ¿Por qué me interesa la programación? 
 La programación combina dos cosas que me gustan mucho: **resolver problemas y jugar** 🎲. 
