@@ -1,8 +1,7 @@
 # Hola, soy Juan Seura 🏫 🇦🇷 🎲 
 
-Desde 2008 trabajo como **Profesor de Historia** 🏫 y desde 2011 me dedico a la **Coordinación de Eventos** 🥳 de cultura audiovisual contemporánea. Desde enero del 2023 comencé a estudiar **Programación** 🖥️. 
-
-
+![](https://cf.geekdo-images.com/tH-dDVwlz_WhE4jMi8yNTg__imagepagezoom/img/re8ey3wdQzGqT7Wyvw6uwEkewA4=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7379384.png)
+#### Desde 2008 trabajo como **Profesor de Historia** 🏫 y desde 2011 me dedico a la **Coordinación de Eventos** 🥳 de cultura audiovisual contemporánea. Y en enero del 2023 comencé a estudiar **Programación** 🖥️. 
 
 ## ¿Por qué me interesa la programación? 
 La programación combina dos cosas que me gustan mucho: **resolver problemas y jugar** 🎲. 
@@ -30,7 +29,7 @@ Como en un juego (mis favoritos son los cooperativos) la programación me invita
 🐚 Bootcamp **Full-stack JavaScript Developer** de Guillermo Rodas en **Undefined Academy**.
 
 
-![The_Big_Book_of_Madness](https://cf.geekdo-images.com/rTpjSXPCXrZ7oOhMzMMuLw__imagepagezoom/img/97k_aJJQFBe1n2_ZwhxDPvMmA-Y=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7296045.jpg?auto=format&fit=clip&q=40&w=100) 
+![The_Big_Book_of_Madness](https://cf.geekdo-images.com/DYKiidTQUrAkshRPTTxV5A__imagepagezoom/img/EPZZQSrS82O4gYYPAGVblafIkHc=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7379291.png?auto=format&fit=clip&q=40&w=100) 
 
 ## Comunidades en las que participo: 
 
@@ -54,7 +53,7 @@ Web: https://otakustw.wixsite.com/otakussintecho
 
 ![Shobu](https://cf.geekdo-images.com/ChsD9NOlNaasadu793M7vQ__imagepage/img/27xAn41juFDj3XAT-28mjG7IGXo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7378387.png?auto=format&fit=clip&q=40&w=100) 
 
-## En este momento estoy estudiando la Terminal y la creación de Comandos Alias. Estos cuadros tienen algunos de los ejemplos que estamos conociendo: 
+### En este momento estoy estudiando la Terminal y la creación de Comandos Alias. Estos cuadros tienen algunos de los ejemplos que estamos conociendo y que comencé a poner en práctica: 
 
 ### Comandos de la terminal: 
 
