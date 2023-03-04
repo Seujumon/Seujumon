@@ -36,12 +36,12 @@ Como en un juego (mis favoritos son los cooperativos) la programación me invita
 
 🎲 Grupo argentino para la discusión de temas relacionados a los juegos de mesa modernos, su producción y desarrollo. 
 
-Lintree: https://linktr.ee/cbarg
+[Lintree](https://linktr.ee/cbarg)
 
 #### Otakus Sin Techo: 
 👺 Organización de la ciudad de Trelew, dedicada a la organización de eventos relacionados a la cultura audiovisual contemporánea, originariamente de origen japonés. 
 
-Web: https://otakustw.wixsite.com/otakussintecho
+[Web](https://otakustw.wixsite.com/otakussintecho)
 
 ## Otros intereses: 
 * Juegos de Mesa Modernos 🎲
