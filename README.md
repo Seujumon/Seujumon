@@ -52,31 +52,3 @@ Como en un juego (mis favoritos son los cooperativos) la programación me invita
 
 ![Shobu](https://cf.geekdo-images.com/ChsD9NOlNaasadu793M7vQ__imagepage/img/27xAn41juFDj3XAT-28mjG7IGXo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7378387.png?auto=format&fit=clip&q=40&w=100) 
 
-### En este momento estoy estudiando la Terminal y la creación de Comandos Alias. Estos cuadros tienen algunos de los ejemplos que estamos conociendo y que comencé a poner en práctica: 
-
-### Comandos de la terminal: 
-
-| Comando | Descripción |
-|---------|-------------|
-| pwd | Ubicación actual | 
-| date | Fecha | 
-| uptimme | Tiempo desde que se inició el equipo | 
-| cal | Calendario | 
-| mkdrir <nombre> | Crear carpeta | 
-| cp -r <ruta_inicial><ruta_final> | Copiar carpeta | 
-| rm -r <nombre> | Elimina una carpeta | 
-| touch <nombre> | Crea un archivo | 
-
-
-
-
-### Comandos Alias Interesantes: 
-
-| Comado alias recomendado | Descripción | 
-|--------------------------|-------------|
-| alias rm="trash" | Enviar elementos eliminados a la papelera de reciclaje | 
-| alias upd="sudo apt update | Buscar actualizaciones. | 
-| alias upg="sudo apt upgrade " | Actualizar | 
-| alias ip="curl icanhazip.com" | Muestra la IP pública | 
-  
-
