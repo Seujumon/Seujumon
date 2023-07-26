@@ -1,0 +1,44 @@
+body{
+		margin: 0 auto;
+    	max-width: 70em;
+	}
+
+.titulo{
+	background-color: #333;
+	color: #eee ;
+}
+.titulo img{
+		width: 200px;
+	height: 200px;
+	border-radius: 50%; /*rounded-circle es la clase de Bootstrap que redondea la img */
+	margin: 20px;
+	border: 6px solid #444;
+}
+.provisional1 img{
+	width: 300px;
+	height: 300px;
+}
+.proyectos{
+	background-color: darkblue;
+	color: #eee;
+}
+.tyhb{
+	background-color: #333;
+	color: #eee;
+}
+.tyhb img{
+	width: 100px;
+	height: 100px;
+}
+.capacitaciones{
+	background-color: #eee;
+	color: #333;
+}
+.capacitaciones img{
+	width: 100px;
+	height: 100px;
+}
+.contacto{
+	background-color: #9ea;
+	color: #333;
+}
