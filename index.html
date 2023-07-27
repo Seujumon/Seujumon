@@ -14,26 +14,27 @@
 </head>
 <body>
 
-
-	<!--Header -->
-	<header class="mx-5">
-		<div class="">
-			<!--Navbar-->
-			<nav class="navbar navv container-fluid">
+	<!--Navbar-->
+			<nav class="navbar navv fixed-top container-fluid p-0">
 				<a class="navbar-brand" href="#Inicio">
 				<span class=" mx-3 navbar-brand h1">Juan Seura </span></a>
 				<div class="">
 					<a class="navbar-brand" href="#AboutMe">AboutMe</a>
 					<a class="navbar-brand" href="#Proyectos">Proyectos</a>
-					<a class="navbar-brand" href="#Tecnologias">Tecnologías</a>
-					<a class="navbar-brand" href="#Tecnologias">Habilidades</a>
-					<a class="navbar-brand" href="#Capacitaciones">Capacitaciones</a>
+					<a class="navbar-brand" href="#Tecnologias">Tecnologías y Habilidades</a>
+					<a class="navbar-brand" href="#Capacitaciones">Formación</a>
 					<a class="navbar-brand" href="#Contacto">Contacto</a>
 				</div>
 			</nav>
+	<!--Header -->
+
+	<header class="mx-5 pt-5">
+
+		<div class="">
+			
 
 			<!--Titulo-->
-			<div class="pb-3" id="Inicio" name="Inicio">
+			<div class="pb-3" id="Inicio" name="Inicio" >
 				<div class="card p-5 titulo">
 				  <div class="card-body p-5">
 				    <div class="d-flex flex-column justify.content.center align-items-center">
@@ -47,27 +48,37 @@
 				</div>
 
 			</div>
+		
 		</div>
+		
 	</header>
 	<!--Fin del Header-->
 	
 	<!--Main-->
 
 	<main>
+
 		<!--ABOUTME-->
-		<div class="mx-5 px-5 pt-4 d-flex flex-row aboutme">
-			<div class="d-flex flex-column aboutme">
-				<h2 id="AboutMe" name="AboutMe" > About me </h2>
+		<div class="d-flex flex-column pt-5 aboutme mx-5 px-5" id="AboutMe" name="AboutMe">
+		<div class=" d-flex flex-row aboutme"  >
+			<div class="d-flex flex-column  ">
+				<h2 class=""> About me </h2>
 				<p> Desde 2008 trabajo como Profesor de Historia y desde el 2011 me dedico a la Coordinación de Eventos de cultura audiovisual contemporánea. Tenía una deuda conmigo, y en enero del 2023 comencé mis estudios en Programación , donde descubrí un ambiente fascinante y estimulante. Actualmente soy estudiante de programación, con algunos conocimientos de Frontend, y recorriendo el camino para convertirme en programador Full Stack , y espero poder colaborar en proyectos e incorporarme a la industria Tech.</p>
 			</div>
+
 			<div class="mx-4 p-3 provisional1">
 				<img src="img/provisional1.png">
 			</div>
+			
 		</div> 
+		<div ></div>
+		</div>
+		
 		<!--PROYECTOS-->
-		<div class="mx-5 p-5 d-flex flex-column proyectos">
-			<div class="d-flex flex-column">
-				<h2 class="text-center pb-4" id="Proyectos" name="Proyectos" >Proyectos</h2>
+		
+		<div class="mx-5 px-5 d-flex flex-column proyectos" id="Proyectos" name="Proyectos">
+			<div class="d-flex flex-column pt-5">
+				<h2 class="text-center pb-4 "  >Proyectos</h2>
 			</div>
 			<!--Tarjetas-->
 			<!--TODO Agregarles un botón con un link a github y, si el proy está deployado también-->
@@ -112,11 +123,12 @@
 				</div>
 			</div>
 			<!--Fin de Cards-->
+		
 		</div>
 		<!--Tecnologías y Habilidades-->
-		<div class="mx-5 p-5 d-flex flex-column tyhb justify.content.center align-items-center">
+		<div class="mx-5 p-5 d-flex flex-column tyhb justify.content.center align-items-center"  id="Tecnologias">
 			<div class="d-flex">
-				<h2 class="text-center pb-4" id="Tecnologias">Tecnologías y Habilidades Blandas</h2>
+				<h2 class="text-center pb-4" >Tecnologías y Habilidades Blandas</h2>
 			</div>	
 			<div class="row row-cols-1 row-cols-md-5 g-4 ">
   				<div class="card col mx-3 p-4 justify.content.center align-items-center">
@@ -183,11 +195,12 @@
   					<h5 class="text-center">Responsabilidad</h5>
   				</div>
   			</div>
+  		
 		</div>	
 		<!--Capacitaciones-->
-		<div class="mx-5 p-5 d-flex flex-column capacitaciones justify.content.center align-items-center">
+		<div class="mx-5 p-5 d-flex flex-column capacitaciones justify.content.center align-items-center"  id="Capacitaciones" name="Capacitaciones">
 			<div class="d-flex me-4">
-				<h2 class="text-center pb-4" id="Capacitaciones" name="Capacitaciones">Capacitaciones</h2>
+				<h2 class="text-center pb-4" >Formación</h2>
 			</div>	
 			<div class="row row-cols-1 row-cols-md-4 g-12 card-group">
   				<div class="card col mx-3 p-4 justify.content.center align-items-center">
@@ -233,12 +246,13 @@
   					<li>Introducción a los Algoritmos y la Programación - Todo Code</li>
   				</ul>
   			</div>
+  			
 		</div>	
 
 
 		<!--Formulario de Contacto-->
-		<div class="mx-5 p-5 d-flex flex-column contacto justify.content.center align-items-center">
-			<h2 id="Contacto" name="Contacto">Contacto</h2>
+		<div class="mx-5 p-5 d-flex flex-column contacto justify.content.center align-items-center" id="Contacto" name="Contacto">
+			<h2 >Contacto</h2>
 			<p>Para que estemos en contacto, por favor llenar el formulario, y responderé a la brevedad. Si desea utilizar otra vía de contacto, también está adjunto mi mail, Linkedin y GitHub. </p>
 
 		<section class="container ">
