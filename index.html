@@ -16,25 +16,28 @@
 
 
 	<!--Header -->
-	<header>
-		<div class="container">
+	<header class="mx-5">
+		<div class="">
 			<!--Navbar-->
-			<nav class="navbar bg-body-tertiary container-fluid">
-				<span class="navbar-brand mb-0 h1">Juan Seura </span>
+			<nav class="navbar navv container-fluid">
+				<a class="navbar-brand" href="#Inicio">
+				<span class=" mx-3 navbar-brand h1">Juan Seura </span></a>
 				<div class="">
-					<a class="navbar-brand" href="#">AboutMe</a>
-					<a class="navbar-brand" href="#">Proyectos</a>
-					<a class="navbar-brand" href="#">Tecnologías</a>
-					<a class="navbar-brand" href="#">Contacto</a>
+					<a class="navbar-brand" href="#AboutMe">AboutMe</a>
+					<a class="navbar-brand" href="#Proyectos">Proyectos</a>
+					<a class="navbar-brand" href="#Tecnologias">Tecnologías</a>
+					<a class="navbar-brand" href="#Tecnologias">Habilidades</a>
+					<a class="navbar-brand" href="#Capacitaciones">Capacitaciones</a>
+					<a class="navbar-brand" href="#Contacto">Contacto</a>
 				</div>
 			</nav>
 
 			<!--Titulo-->
-			<div class=" p-5 ">
-				<div class="card mb-3 p-5 titulo">
+			<div class="pb-3" id="Inicio" name="Inicio">
+				<div class="card p-5 titulo">
 				  <div class="card-body p-5">
 				    <div class="d-flex flex-column justify.content.center align-items-center">
-				  		<img src="img/foto.jpg">
+				  		<img onmouseout="this.src='img/foto.jpg';" onmouseover="this.src='img/foto2.png';" src="img/foto.jpg">
 				  	</div>
 				    <h1 class="card-title text-center">Hola, soy Juan Seura</h5>
 				    <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -50,21 +53,21 @@
 	
 	<!--Main-->
 
-	<main class="">
+	<main>
 		<!--ABOUTME-->
-		<div class="mx-5 px-5 d-flex flex-row">
-			<div class="d-flex flex-column">
+		<div class="mx-5 px-5 pt-4 d-flex flex-row aboutme">
+			<div class="d-flex flex-column aboutme">
 				<h2 id="AboutMe" name="AboutMe" > About me </h2>
 				<p> Desde 2008 trabajo como Profesor de Historia y desde el 2011 me dedico a la Coordinación de Eventos de cultura audiovisual contemporánea. Tenía una deuda conmigo, y en enero del 2023 comencé mis estudios en Programación , donde descubrí un ambiente fascinante y estimulante. Actualmente soy estudiante de programación, con algunos conocimientos de Frontend, y recorriendo el camino para convertirme en programador Full Stack , y espero poder colaborar en proyectos e incorporarme a la industria Tech.</p>
 			</div>
-			<div class="m-4 p-3 provisional1">
+			<div class="mx-4 p-3 provisional1">
 				<img src="img/provisional1.png">
 			</div>
 		</div> 
 		<!--PROYECTOS-->
 		<div class="mx-5 p-5 d-flex flex-column proyectos">
 			<div class="d-flex flex-column">
-				<h2 class="text-center pb-4">Proyectos</h2>
+				<h2 class="text-center pb-4" id="Proyectos" name="Proyectos" >Proyectos</h2>
 			</div>
 			<!--Tarjetas-->
 			<!--TODO Agregarles un botón con un link a github y, si el proy está deployado también-->
@@ -111,11 +114,11 @@
 			<!--Fin de Cards-->
 		</div>
 		<!--Tecnologías y Habilidades-->
-		<div class="mx-5 p-5 d-flex flex-row tyhb justify.content.center align-items-center">
-			<div class="d-flex me-4">
-				<h2 class="text-center pb-4">Tecnologías y Habilidades Blandas</h2>
+		<div class="mx-5 p-5 d-flex flex-column tyhb justify.content.center align-items-center">
+			<div class="d-flex">
+				<h2 class="text-center pb-4" id="Tecnologias">Tecnologías y Habilidades Blandas</h2>
 			</div>	
-			<div class="row row-cols-1 row-cols-md-4 g-4 ms-4">
+			<div class="row row-cols-1 row-cols-md-5 g-4 ">
   				<div class="card col mx-3 p-4 justify.content.center align-items-center">
   					<img src="img/provisional3.png">
   					<h5 class="text-center">JAVA</h5>
@@ -184,9 +187,9 @@
 		<!--Capacitaciones-->
 		<div class="mx-5 p-5 d-flex flex-column capacitaciones justify.content.center align-items-center">
 			<div class="d-flex me-4">
-				<h2 class="text-center pb-4">Capacitaciones</h2>
+				<h2 class="text-center pb-4" id="Capacitaciones" name="Capacitaciones">Capacitaciones</h2>
 			</div>	
-			<div class="row row-cols-1 row-cols-md-4 g-4 ms-4">
+			<div class="row row-cols-1 row-cols-md-4 g-12 card-group">
   				<div class="card col mx-3 p-4 justify.content.center align-items-center">
   					<img src="img/provisional3.png">
   					<h5 class="text-center">Argentina Programa - EGG</h5>
@@ -209,11 +212,18 @@
   						<p>Contenidos: Java - Spring Boot-  GitHub -  HTML - CSS - JavaScript - SoftSkills - Metodologías Ágiles - Startups y Emprendimientos </p>
   						<p>En curso</p>
   				</div>
+  				<div class="card col mx-3 p-4 justify.content.center align-items-center">
+  					<img src="img/provisional3.png">
+  					<h5 class="text-center">Codo a Codo</h5>
+  						<h3>Spring</h3>
+  						<p>Contenidos: Java - Spring - Spring Boot</p>
+  						<p>En curso</p>
+  				</div>
   				
   			</div>
   			<!--TODO puede ser un desplegable-->
-  			<div>
-  				<h3>Cursos</h3>
+  			<div class="pt-3">
+  				<h3 id="Cursos" name="Name">Cursos</h3>
   				<ul>
   					<li>Introducción a las Bases de Datos Relacionales (Con MySQL) - Todo Code</li>
   					<li>Java para Principiantes - Todo Code</li>
@@ -228,7 +238,7 @@
 
 		<!--Formulario de Contacto-->
 		<div class="mx-5 p-5 d-flex flex-column contacto justify.content.center align-items-center">
-			<h2>Contacto</h2>
+			<h2 id="Contacto" name="Contacto">Contacto</h2>
 			<p>Para que estemos en contacto, por favor llenar el formulario, y responderé a la brevedad. Si desea utilizar otra vía de contacto, también está adjunto mi mail, Linkedin y GitHub. </p>
 
 		<section class="container ">
@@ -269,7 +279,8 @@
 							   <label class="form-check-label" for="exampleCheck1">Al hacer clic acepta que me comunique con usted únicamente por las razones que figuran en el formulario, y los datos introducidos no serán divulgados ni usados con ningún otro fin.</label>
 							</div>
 							  <button type="submit" class="btn btn-primary">Enviar</button>
-							  <input type="hidden" name="_next" value="https://seujumon.github.io/Seujumon">
+							  <input type="hidden" name="_next" 
+							  value="https://seujumon.github.io/Seujumon">
 							  <input type="hidden" name="_captcha" value="false">
 
 						</form>
@@ -278,50 +289,25 @@
 					</section>
 		</div>
 
-<!--
-		<div class="mx-5 p-5 d-flex flex-column capacitaciones justify.content.center align-items-center">
-			<h2>Contacto</h2>
-			<p>Para que estemos en contacto, por favor llenar el formulario, y responderé a la brevedad. Si desea utilizar otra vía de contacto, también está adjunto mi mail, Linkedin y GitHub. </p>
-			<form>
-				
-				<div class="mb-3">
-				  	<label for="exampleFormControlInput1" class="form-label">Email: </label>
-				  	<input type="email" class="form-control" id="exampleFormControlInput1" required placeholder="name@ejemplo.com">
-				  	<div id="mensajemail" class="form-text">
-					  La dirección no será compartida con terceros. 
-					</div>
-				</div>
-				<div>
-					<label  for="motivo" class="form-label">Motivo del mensaje</label>
-					<select class="form-select" required aria-label="Default select example" id="motivo">
-					  <option value="colaboracion">Propuesta de coolaboración</option>
-					  <option value="laboral">Propuesta laboral</option>
-					  <option value="proyectos">Sugerencias de proyectos</option>
-					  <option value="presupuesto">Pedido de Presupuestos</option>
-					  <option value="otro">Otro</option>
-					</select>
-				</div>
-				<div class="mb-3 form-check">
-				    <input type="checkbox" class="form-check-input" id="Check1">
-				    <label class="form-check-label" for="Check1">Clic antes de enviar</label>
-				</div>
-				  <button type="submit" class="btn btn-primary">Enviar</button>
-			</form>
-			
-		</div>
-
-	-->
 
 	</main>
 	<!--Fin del Main-->
 	
 	<!--Footer-->
 
-	<footer>
-		
+	
+	<footer class="d-flex flex-column justify-content-center align.items-center py-3 secondary footer mx-5 px-5 ">
+        <div class="d-flex flex-row justify-content-center align.items-center ">
+            <a class="d-flex px-2" href="https://github.com/Seujumon" target="_blank"><i class="bi bi-github"></i>GitHub</a>
+            <a class="d-flex px-2" href="https://www.linkedin.com/in/juan-seura/" target="_blank"><i class="bi bi-github"></i>Linkedin</a>
+        </div>
+        <div class="d-flex flex-row justify-content-center align.items-center">
+            <p class="d-flex"> © 2023 Creado por Juan Seura. All Rights Reserved.</p>
+        </div>
+    </footer>
 
 
-	</footer>
+	
 	<!--Fin del Footer-->
 	
 	<!---->
