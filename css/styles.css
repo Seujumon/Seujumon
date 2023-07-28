@@ -6,68 +6,102 @@
 body{
 		margin: 0 auto;
     	max-width: 70em;
-    	/*background-color: tomato;*/
+    	
 	}
 Header{
-	/*background-color: #333;*/
 	color: #eee ;
 }
 Header .navbar-brand{
 	color: #eee;
 }
 Footer{
-	background-color: darkblue;
-	color: #eee;
+	background-color: #143642;
+	color: #f4f3ee ;
 }	
 .navv{
-	background-color: #a6a;
-	color: #eee ;
+	background-color: #143642;
+	color: #f4f3ee ;
 }
 .navbar-brand{
-	color: white;
+	color: #f4f3ee;
 }
 
 .titulo{
-	background-color: #333;
-	color: #eee ;
+	background-color: #3b60e4;
+	color: #eee;
+	border: 16px solid #3b60e4;
+	border-radius: 0 0 35% 35% ;
+		
+}
+.titulo:hover{
+	transition: 3s ;
+	border: 4px solid #aaa;
+	border-radius: 0 0 25% 25% ;
+	 
 }
 .titulo img{
 		width: 200px;
 	height: 200px;
 	border-radius: 50%; /*rounded-circle es la clase de Bootstrap que redondea la img */
 	margin: 20px;
-	border: 6px solid #444;
+	border: 6px solid #222;
+
 
 }
+.titulo img:hover{
+	transition: 5s ; 
+}
 .provisional1 img{
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	border-radius: 50%;
+	
 }
 .aboutme{
-	background-color: #a6a;
-	color: #eee ;
+	background-color: #c8adc0;
+	color: #eee;
+
+	border-radius: 35%;
+		
+}
+.aboutme:hover{
+	background-color: #ffb7c3;
+	color: #333;
+	border-radius: 25%;
+	border-left: 16px solid #c8adc0;
+	border-right: 16px solid #c8adc0;
+	transition: 2s;
 }
 .proyectos{
-	background-color: darkblue;
+	background-color: #3b60e4;
 	color: #eee;
+
+	border-radius: 15%;
+}
+.proyectos:hover{
+	border-radius: 5%;
+	transition: 2s;
 }
 .tyhb{
-	background-color: #333;
-	color: #eee;
+	background-color: #0f868b;
+	color: #eee ;
 }
+
 .tyhb img{
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	
+}
+.a img{
+	width: 150px;
 }
 .capacitaciones{
-	background-color: #eee;
-	color: #333;
+	background-color: #3b60e4;
+	color: #eee;
 }
 .capacitaciones img{
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	
 }
 .contacto{
-	background-color: #9ea;
-	color: #333;
+	background-color: #0f868b;
+	color: #eee ;
 }
