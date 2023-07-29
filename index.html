@@ -3,8 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Juan Seura - Seujumon</title>
-
+	<meta name="author" content="Juan Seura (@Seujumon)">
+	<meta description="Portafolio web de Juan Seura">
+	<meta name="keywords" content="Java, MySql, HTML, CSS, JavaScript, Bootstrap">
+	<title>Juan Seura | Portfolio Dev</title>
+	<link rel="icon" type="image/x-icon" href="img/favico2.png">
 	<!--Bootstrap-->
 	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 	<!--Bootstrap Icons--> 
@@ -17,7 +20,7 @@
 	<!--Navbar-->
 			<nav class="navbar navv fixed-top container-fluid p-0">
 				<a class="navbar-brand" href="#Inicio">
-				<span class=" mx-3 navbar-brand h1">Juan Seura </span></a>
+				<span class=" mx-3 navbar-brand h1"><img src="img/favico2.png">Juan Seura </span></a>
 				<div class="">
 					<a class="navbar-brand" href="#AboutMe">AboutMe</a>
 					<a class="navbar-brand" href="#Proyectos">Proyectos</a>
@@ -37,8 +40,8 @@
 				    <div class="d-flex flex-column justify.content.center align-items-center">
 				  		<img onmouseout="this.src='img/foto.jpg';" onmouseover="this.src='img/foto2.png';" src="img/foto.jpg">
 				  	</div>
-				    <h1 class="card-title text-center">Hola, soy Juan Seura</h5>
-				    <p class="card-text text-center">Un Entusiasta Programador Backend Junior en busca de nuevos aprendizajes y retos.</p>
+				    <h1 class="card-title text-center p-2">Hola, soy Juan Seura</h5>
+				    <p class="card-text text-center p-2">Un Entusiasta Programador Backend Junior en busca de nuevos aprendizajes y retos.</p>
 				  </div>
 				</div>
 			</div>
@@ -122,79 +125,96 @@
 		</div>
 		<!--Tecnologías y Habilidades-->
 		<div class="mx-2 my-3 p-5 tyhb d-flex flex-column"  id="Tecnologias">
-			<div class="d-flex align-items-center justify-content-center">
-				<h2 class="text-center pb-4" >Tecnologías y Habilidades Blandas</h2>
-			</div>	
-
 			
-			<div class="row row-cols-md-4 g-2 justify-content-center">
-  				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
-  					<img src="img/javalogo.png">
-  					<h5 class="text-center"></h5>
-  			
-  					
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/mysqllogo.png">
-  					<h5 class="text-center"></h5>
-  			
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/html-5.png">
-  					<h5 class="text-center"></h5>
+			<div class="d-flex align-items-center justify-content-center">
+					<h2 class="text-center pb-4" >Tecnologías y Habilidades Blandas</h2>
+			</div>	
+			<!--Botones-->
+			<div>
+				<div class="tecnologia d-flex  justify-content-center wrap" role="group" aria-label="Basic example">
+				  <button type="button" class="btn btn-light mx-1"><img src="img/javalogo.png"></button>
+				  <button type="button" class="btn btn-light mx-1"><img src="img/mysqllogo.png"></button>
+				  <button type="button" class="btn btn-light mx-1"><img src="img/html-5.png"></button>
+				  <button type="button" class="btn btn-light mx-1"><img src="img/css.png"></button>
+				  <button type="button" class="btn btn-light mx-1"><img src="img/javascriptlogo.png"></button>
+				  <button type="button" class="btn btn-light mx-1"><img src="img/bootstrap.png"></button>
+				  <button type="button" class="btn btn-light"><img src="img/githublogo.png"></button>
+
+				</div>
+			</div>
+
+		
+				<div class="row row-cols-md-4 mt-3 g-2 justify-content-center">
+	  				<!--
+	  				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
+	  					<img src="img/javalogo.png">
+	  					<h5 class="text-center"></h5>
+	  			
+	  					
+	  				</div>
+	  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+	  					<img src="img/mysqllogo.png">
+	  					<h5 class="text-center"></h5>
+	  			
+	  				</div>
+	  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+	  					<img src="img/html-5.png">
+	  					<h5 class="text-center"></h5>
+	  		
+	  				</div>
+	  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+	  					<img src="img/css.png">
+	  					<h5 class="text-center"></h5>
+	  				
+	  				</div>
+	  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+	  					<img src="img/javascriptlogo.png">
+	  					<h5 class="text-center">JavaScript</h5>
+	  			
+	  				</div>
+	  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+	  					<img src="img/bootstrap.png">
+	  					<h5 class="text-center">Bootstrap</h5>
+	  				
+	  				</div>
+	  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+	  					<img src="img/githublogo.png">
+	  					
+	  				
+	  				</div>
+	  			-->
+	  					
+		  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+		  					<img src="img/resolucion de problemas 01.png">
+		  					<h5 class="text-center">Resolución de Problemas</h5>
+		  				</div>
+		  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+		  					<img src="img/creatividad 02.png">
+		  					<h5 class="text-center">Creatividad</h5>
+		  				</div>
+		  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+		  					<img src="img/trabajo en equipo 01.png">
+		  					<h5 class="text-center">Trabajo en Equipo</h5>
+		  				</div>
+		  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+		  					<img src="img/comunicacion clara 02.png">
+		  					<h5 class="text-center">Comunicación Clara</h5>
+		  				</div>
+		  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+		  					<img src="img/escucha activa 01.png">
+		  					<h5 class="text-center">Escucha Activa</h5>
+		  				</div>
+		  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+		  					<img src="img/investigacion 01.png">
+		  					<h5 class="text-center">Investigación</h5>
+		  				</div>
+		  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
+		  					<img src="img/responsabilidad 01.png">
+		  					<h5 class="text-center">Responsabilidad</h5>
+	  					
+	  			</div>
   		
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/css.png">
-  					<h5 class="text-center"></h5>
-  				
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/javascriptlogo.png">
-  					<h5 class="text-center">JavaScript</h5>
-  			
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/bootstrap.png">
-  					<h5 class="text-center">Bootstrap</h5>
-  				
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/githublogo.png">
-  					
-  				
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/resolucion de problemas 01.png">
-  					<h5 class="text-center">Resolución de Problemas</h5>
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/creatividad 02.png">
-  					<h5 class="text-center">Creatividad</h5>
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/trabajo en equipo 01.png">
-  					<h5 class="text-center">Trabajo en Equipo</h5>
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/comunicacion clara 02.png">
-  					<h5 class="text-center">Comunicación Clara</h5>
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/escucha activa 01.png">
-  					<h5 class="text-center">Escucha Activa</h5>
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/investigacion 01.png">
-  					<h5 class="text-center">Investigación</h5>
-  				</div>
-  				<div class="card mx-2 col p-4 justify.content.center align-items-center">
-  					<img src="img/responsabilidad 01.png">
-  					<h5 class="text-center">Responsabilidad</h5>
-  				</div>
   			</div>
-  		
-  		
 		</div>	
 		<!--Capacitaciones-->
 		<div class="mx-5 my-3 p-5 d-flex flex-column capacitaciones justify.content.center align-items-center"  id="Capacitaciones" name="Capacitaciones">

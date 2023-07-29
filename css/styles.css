@@ -27,7 +27,7 @@ Footer{
 }
 
 .titulo{
-	background-image: url("../img/fondo.jpg");
+	background-image: url("../img/fondo3.jpg");
 	background-size: 100%;
 	background-position-y: 50%;
 	
@@ -53,7 +53,8 @@ Footer{
 
 }
 .titulo h1, .titulo p{
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 25%;
 }
 
 .titulo img:hover{
@@ -86,7 +87,7 @@ background-color: #ffc8dd;
 }
 .aboutme img:hover{
 	transition: 3s;
-	width: 450px;
+	
 	border: 12px solid orangered;
 }
 .proyectos{
@@ -116,6 +117,18 @@ background-color: #ffc8dd;
 .tyhb img{
 	width: 200px;
 	
+}
+.tecnologia img{
+	height: 80px;
+	width: auto;
+}
+.tecnologia .btn{
+	border-radius: 35%;
+	background-color: white;
+	border: 2px solid rgba(126, 122 , 18, 0.6);
+}
+.tecnologia .btn:hover{
+	border: 2px solid rgba(212, 192 , 48, 0.6);
 }
 .a img{
 	width: 150px;
