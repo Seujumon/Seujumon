@@ -27,20 +27,24 @@ Footer{
 }
 
 .titulo{
-	background-color: #3b60e4;
+	background-image: url("../img/fondo.jpg");
+	background-size: 100%;
+	background-position-y: 50%;
+	
 	color: #eee;
-	border: 16px solid #3b60e4;
-	border-radius: 0 0 35% 35% ;
+	text-transform: uppercase;
+	border: 8px solid #333;
+	border-radius: 0 0 25% 25% ;
 		
 }
 .titulo:hover{
 	transition: 3s ;
-	border: 4px solid #aaa;
+	border: 8px solid #aaa;
 	border-radius: 0 0 25% 25% ;
 	 
 }
 .titulo img{
-		width: 200px;
+	width: 200px;
 	height: 200px;
 	border-radius: 50%; /*rounded-circle es la clase de Bootstrap que redondea la img */
 	margin: 20px;
@@ -48,38 +52,61 @@ Footer{
 
 
 }
+.titulo h1, .titulo p{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 .titulo img:hover{
 	transition: 5s ; 
 }
-.provisional1 img{
-	width: 250px;
-	border-radius: 50%;
-	
-}
-.aboutme{
-	background-color: #c8adc0;
-	color: #eee;
 
-	border-radius: 35%;
+.aboutme{
+	background-color: #cdb4db;
+	color: #fff;
+	border-radius: 15%;
+	border-left: 16px solid #a2d2ff;
+	border-right: 16px solid #a2d2ff;
+	
 		
 }
 .aboutme:hover{
-	background-color: #ffb7c3;
+background-color: #ffc8dd;
 	color: #333;
-	border-radius: 25%;
-	border-left: 16px solid #c8adc0;
-	border-right: 16px solid #c8adc0;
+	border-left: 16px solid #cdb4db;
+	border-right: 16px solid #cdb4db;
+	border-radius: 15%;
 	transition: 2s;
+}
+.aboutme img{
+	width: 350px;
+	border-radius: 30%;
+
+	border: 12px solid white;
+
+}
+.aboutme img:hover{
+	transition: 3s;
+	width: 450px;
+	border: 12px solid orangered;
 }
 .proyectos{
-	background-color: #3b60e4;
+	background-color: #cdb4db;
 	color: #eee;
+	border: 8px solid #a2d2ff;	
+	
 
-	border-radius: 15%;
+	border-radius: 5%;
 }
 .proyectos:hover{
-	border-radius: 5%;
-	transition: 2s;
+	border: 12px solid #f7b801;
+	transition: 1s;
+}
+.proy{
+	border: 4px solid orange;
+}
+.proy:hover{
+	border: 4px solid dodgerblue;
+	transition: 1s;
 }
 .tyhb{
 	background-color: #0f868b;
@@ -104,4 +131,13 @@ Footer{
 .contacto{
 	background-color: #0f868b;
 	color: #eee ;
+	border-radius: 16%;
+	border-top: 8px solid #eee;
+	border-bottom: 8px solid #eee;
+
+}
+.contacto:hover{
+	transition: 2s;
+			border-top: 8px solid #0f868b;
+	border-bottom: 8px solid #0f868b;
 }
