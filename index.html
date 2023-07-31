@@ -7,7 +7,7 @@
 	<meta description="Portafolio web de Juan Seura">
 	<meta name="keywords" content="Java, MySql, HTML, CSS, JavaScript, Bootstrap">
 	<title>Juan Seura | Portfolio Dev</title>
-	<link rel="icon" type="image/x-icon" href="img/favico2.png">
+	<link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
 	<!--Bootstrap-->
 	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 	<!--Bootstrap Icons--> 
@@ -20,7 +20,7 @@
 	<!--Navbar-->
 			<nav class="navbar navv fixed-top container-fluid p-0">
 				<a class="navbar-brand" href="#Inicio">
-				<span class=" mx-3 navbar-brand h1"><img src="img/favico2.png">Juan Seura </span></a>
+				<span class=" mx-3 navbar-brand h1"><img src="img/favicon-32x32.png">Juan Seura </span></a>
 				<div class="">
 					<a class="navbar-brand" href="#AboutMe">AboutMe</a>
 					<a class="navbar-brand" href="#Proyectos">Proyectos</a>
@@ -36,9 +36,14 @@
 			<!--Titulo-->
 			<div class="pb-3" id="Inicio" name="Inicio" >
 				<div class="card p-3 titulo">
-				  <div class="card-body p-5">
+				  <div class="card-body p-5 d-flex flex-column">
+				  	<!--
 				    <div class="d-flex flex-column justify.content.center align-items-center">
 				  		<img onmouseout="this.src='img/foto.jpg';" onmouseover="this.src='img/foto2.png';" src="img/foto.jpg">
+				  	</div>
+				  -->
+				  	<div class="foto" id="foto">
+				  		
 				  	</div>
 				    <h1 class="card-title text-center p-2">Hola, soy Juan Seura</h5>
 				    <p class="card-text text-center p-2">Un Entusiasta Programador Backend Junior en busca de nuevos aprendizajes y retos.</p>
@@ -58,10 +63,9 @@
 		<div class=" d-flex flex-row "  >
 			<div class="px-3 mx-5 my-3">
 				<h2 class=""> Acerca de mi </h2>
-				<p class="text-justify"> Soy un apasionado Programador Junior en formación, con una visión audaz para construir el futuro digital. Mi experiencia y estudios son como programador Full Stack, pero mi especialidad y pasión radican en el desarrollo Back End. Con habilidades sólidas en Java, GitHub, MySQL y la creación de sitios web con HTML, CSS y JavaScript, puedo construir soluciones técnicas innovadoras y escalables. Además, me siento cómodo trabajando con IDEs como NetBeans, Eclipse y Visual Studio Code para agilizar el desarrollo. Crear proyectos funcionales y eficientes es lo que más me motiva en mi carrera. </p>
-				<p>Además de mis conocimientos técnicos, tengo una amplia experiencia en otras áreas de trabajo que han enriquecido mi perfil profesional. He tenido la oportunidad de enseñar en el nivel secundario, lo que me ha permitido desarrollar habilidades de comunicación efectiva y adaptabilidad, ya que cada estudiante es único y aprende de manera diferente. Como planificador de eventos, he perfeccionado mi capacidad para trabajar bajo presión y gestionar proyectos complejos, lo que ha sido invaluable en mi carrera de programador.</p>
-				<p>Soy un firme creyente en el poder del trabajo en equipo y valoro la colaboración como la piedra angular del éxito. Mis habilidades blandas, como la empatía, la escucha activa y la resolución de conflictos, me permiten establecer relaciones sólidas con mis colegas y clientes, lo que facilita un ambiente de trabajo positivo y productivo.</p>
-				<p>Estoy emocionado por formar parte de equipos ambiciosos y colaborativos con quienes compartir la pasión por la innovación y el desarrollo tecnológico. Siempre dispuesto a afrontar nuevos desafíos, estoy listo para construir un futuro digital impactante y llevar nuestras ideas a un nivel superior.</p>
+				<p class="text-justify"> Soy un un entusiasta desarrollador backend jr en busca de nuevos retos. Mi experiencia y estudios son como programador Full Stack, pero mi especialidad y pasión radican en el desarrollo Back End. Con habilidades en Java, GitHub, MySQL y la creación de sitios web con HTML, CSS y JavaScript, puedo construir soluciones técnicas innovadoras y escalables. Además, me siento cómodo trabajando con IDEs como NetBeans, Eclipse y Visual Studio Code para agilizar el desarrollo. Crear proyectos funcionales y eficientes es lo que más me motiva en mi carrera. </p>
+				<p>Sumado a mis conocimientos técnicos, tengo una amplia experiencia en otras áreas de trabajo que han enriquecido mi perfil profesional. He tenido la oportunidad de enseñar en el nivel secundario, lo que me ha permitido desarrollar habilidades de comunicación efectiva y adaptabilidad, ya que cada estudiante es único y aprende de manera diferente. Como planificador de eventos, he perfeccionado mi capacidad para trabajar bajo presión y gestionar proyectos complejos, lo que ha sido invaluable en mi carrera de programador.</p>
+				<p>Estoy emocionado por formar parte de equipos ambiciosos y colaborativos con quienes compartir la pasión por la innovación y el desarrollo tecnológico.</p>
 			</div>
 
 			<div class="ms-1 my-3 px-3 d-flex justify-content-center align-items-center">
@@ -83,7 +87,7 @@
 			<div>
 				<div class="row row-cols-1 row-cols-md-3 g-4">
 				  <div class="col">
-				    <div class="card p-3 proy">
+				    <div class="card p-4 proy">
 				      <img src="img/proyectoconversor.png" class="card-img-top" alt="...">
 				      <div class="card-body">
 				        <h5 class="card-title">Conversor</h5>
@@ -92,7 +96,7 @@
 				    </div>
 				  </div>
 				  <div class="col">
-				    <div class="card p-3 proy">
+				    <div class="card p-4 proy">
 				      <img src="img/proyectosludoteca.png" class="card-img-top" alt="...">
 				      <div class="card-body ">
 				        <h5 class="card-title">Ludoteca</h5>
@@ -101,7 +105,7 @@
 				    </div>
 				  </div>
 				  <div class="col">
-				    <div class="card p-3 proy">
+				    <div class="card p-4 proy">
 				      <img src="img/proyectoencriptador.png" class="card-img-top" alt="...">
 				      <div class="card-body">
 				        <h5 class="card-title">Encriptador</h5>
@@ -109,22 +113,24 @@
 				      </div>
 				    </div>
 				  </div>
+				  <!--
 				  <div class="col">
-				    <div class="card p-3 proy">
+				    <div class="card p-4 proy">
 				      <img src="img/work-in-progress.png" class="card-img-top" alt="...">
 				      <div class="card-body">
 				        <h5 class="card-title">Aplicación de Cocina</h5>
 				        <p class="card-text">Trabajo en proceso para administrar una cocina, familiar o profesional. Entre las funcionalidades esperadas están consultar una base de datos de recetas, de productos disponibles y sus cantidades, consultar posibles recetas de cocina, y elaborar listas de compras en función de los ingredientes necesarios para elaborar una comida. </p>
 				      </div>
 				    </div>
-				  </div>
+				  </div>-->
 				</div>
 			</div>
+		
 			<!--Fin de Cards-->
 		
 		</div>
 		<!--Tecnologías y Habilidades-->
-		<div class="mx-2 my-3 p-5 tyhb d-flex flex-column"  id="Tecnologias">
+		<div class="mx-1 my-3 p-5 tyhb d-flex flex-column"  id="Tecnologias">
 			
 			<div class="d-flex align-items-center justify-content-center">
 					<h2 class="text-center pb-4" >Tecnologías y Habilidades Blandas</h2>
@@ -144,7 +150,7 @@
 			</div>
 
 		
-				<div class="row row-cols-md-4 mt-3 g-2 justify-content-center">
+				<div class="row row-cols-md-4 mt-3 g-2 justify-content-center habilidades" >
 	  				<!--
 	  				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
 	  					<img src="img/javalogo.png">
@@ -221,39 +227,39 @@
 			<div class="d-flex me-4">
 				<h2 class="text-center pb-4" >Formación</h2>
 			</div>	
-			<div class="row row-cols-md-4 g-2 justify-content-center">
+			<div class="row row-cols-md-3 g-2 justify-content-center">
   				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
   					<img class="img-fluid" src="img/argentinaprogramalogo.png">
-  					<h5 class="text-center">Argentina Programa - EGG</h5>
-  						<h3 class="text-center">Programador Full-Stack Junior </h3>
-  						<h4 class="text-center">Contenidos:</h4>
-  						<p class="text-center">Java - GitHub - MySQL - HTML - CSS - JavaScript - React - Spring Boot</p>
-  						<p class="text-center">En curso</p>
+  					<h5 class="text-center py-1">Argentina Programa - EGG</h5>
+  						<h3 class="text-center py-1">Programador Full-Stack Junior </h3>
+  						<h4 class="text-center py-1">Contenidos:</h4>
+  						<p class="text-center py-1">Java - GitHub - MySQL - HTML - CSS - JavaScript - React - Spring Boot</p>
+  						<p class="text-center py-1">En curso</p>
   					
   				</div>
   				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
   					<img src="img/codoacodologo.png">
-  					<h5 class="text-center">Codo a Codo</h5>
-  					<h3 class="text-center">Full-Stack Java</h3>
-  					<h4 class="text-center">Contenidos:</h4>
-  					<p class="text-center"> Java - GitHub - MySQL - HTML - CSS - JavaScript - Bootstrap</p>
-  					<p class="text-center">Concluído</p>
+  					<h5 class="text-center py-1">Codo a Codo</h5>
+  					<h3 class="text-center py-1">Full-Stack Java</h3>
+  					<h4 class="text-center py-1">Contenidos:</h4>
+  					<p class="text-center py-1"> Java - GitHub - MySQL - HTML - CSS - JavaScript - Bootstrap</p>
+  					<p class="text-center py-1">Concluído</p>
   				</div>
   				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
   					<img src="img/ONElogo.png">
-  					<h5 class="text-center">ONE- Oracle - AluraLatam</h5>
-  						<h3 class="text-center">Especialización BackEnd Java</h3>
-  						<h4 class="text-center">Contenidos:</h4>
-  						<p class="text-center">Java - Spring Boot-  GitHub -  HTML - CSS - JavaScript - SoftSkills - Metodologías Ágiles - Startups y Emprendimientos </p>
-  						<p class="text-center">En curso</p>
+  					<h5 class="text-center py-1">ONE- Oracle - AluraLatam</h5>
+  						<h3 class="text-center py-1">Especialización BackEnd Java</h3>
+  						<h4 class="text-center py-1">Contenidos:</h4>
+  						<p class="text-center py-1">Java - Spring Boot-  GitHub -  HTML - CSS - JavaScript - SoftSkills - Metodologías Ágiles - Startups y Emprendimientos </p>
+  						<p class="text-center py-1">En curso</p>
   				</div>
   				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
   					<img src="img/codoacodologo.png">
-  					<h5 class="text-center">Codo a Codo</h5>
-  						<h3 class="text-center">Especialización Spring</h3>
-  						<h4 class="text-center">Contenidos:</h4>
-  						<p class="text-center">Java - Spring - Spring Boot</p>
-  						<p class="text-center">En curso</p>
+  					<h5 class="text-center py-1">Codo a Codo</h5>
+  						<h3 class="text-center py-1">Especialización Spring</h3>
+  						<h4 class="text-center py-1">Contenidos:</h4>
+  						<p class="text-center py-1">Java - Spring - Spring Boot</p>
+  						<p class="text-center py-1">En curso</p>
   				</div>
   				
   			</div>
@@ -329,7 +335,7 @@
 							   <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
 							   <label class="form-check-label" for="exampleCheck1">Al hacer clic acepta que me comunique con usted únicamente por las razones que figuran en el formulario, y los datos introducidos no serán divulgados ni usados con ningún otro fin.</label>
 							</div>
-							  <button type="submit" class="btn btn-primary">Enviar</button>
+							  <button type="submit" class="btn btn-danger">Enviar</button>
 							  <input type="hidden" name="_next" 
 							  value="https://seujumon.github.io/Seujumon">
 							  <input type="hidden" name="_captcha" value="false">

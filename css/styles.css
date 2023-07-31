@@ -6,6 +6,11 @@
 body{
 		margin: 0 auto;
     	max-width: 70em;
+    	background-image: url("../img/code-square.svg");
+    	background-color: #004b23;
+    	background-size: 15%;
+
+
     	
 	}
 Header{
@@ -39,7 +44,7 @@ Footer{
 }
 .titulo:hover{
 	transition: 3s ;
-	border: 8px solid #aaa;
+	border: 8px solid #38b000;
 	border-radius: 0 0 25% 25% ;
 	 
 }
@@ -51,7 +56,29 @@ Footer{
 	border: 6px solid #222;
 
 
+
 }
+.foto{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%; /*rounded-circle es la clase de Bootstrap que redondea la img */
+	margin: 20px auto;
+	border: 6px solid #222;
+	background-image: url("../img/foto.jpg");
+	background-size: 100%;
+	background-position-y: 50%;
+}
+
+.foto:hover{
+	transition: 3s;
+	background-color: #f18701;
+	background-image: url("../img/foto2.png");
+	background-size: 100%;
+	background-position-y: 50%;
+}
+
+
+
 .titulo h1, .titulo p{
 	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 25%;
@@ -62,60 +89,72 @@ Footer{
 }
 
 .aboutme{
-	background-color: #cdb4db;
-	color: #fff;
-	border-radius: 15%;
-	border-left: 16px solid #a2d2ff;
-	border-right: 16px solid #a2d2ff;
+	background-color: #004b23;
+	color: #ddd;
+	
+	border-left: 4px solid #004b23;
+	border-right: 4px solid #004b23;
 	
 		
 }
 .aboutme:hover{
-background-color: #ffc8dd;
-	color: #333;
-	border-left: 16px solid #cdb4db;
-	border-right: 16px solid #cdb4db;
-	border-radius: 15%;
-	transition: 2s;
+background-color: #006400;
+	color: #eee;
+	border-left: 4px solid #70e000;
+	border-right: 4px solid #70e000;
+	border-radius: 10%;
+	transition: 1s;
 }
 .aboutme img{
 	width: 350px;
 	border-radius: 30%;
 
-	border: 12px solid white;
+	border: 8px solid #006400;
 
 }
 .aboutme img:hover{
 	transition: 3s;
 	
-	border: 12px solid orangered;
+	border: 8px solid #f7b801;
 }
 .proyectos{
-	background-color: #cdb4db;
+	background-color: #004b23;
 	color: #eee;
-	border: 8px solid #a2d2ff;	
+		
 	
 
 	border-radius: 5%;
 }
 .proyectos:hover{
-	border: 12px solid #f7b801;
-	transition: 1s;
+	background-color: #008000;
+	transition: 2.5s;
+
+	
 }
 .proy{
-	border: 4px solid orange;
+	border: 4px solid #007200;
+	border-radius: 16%;
 }
 .proy:hover{
-	border: 4px solid dodgerblue;
+	border: 4px solid #f7b801;
 	transition: 1s;
+	cursor: hand;
 }
 .tyhb{
-	background-color: #0f868b;
+	background-color: #004b23;
 	color: #eee ;
+	border: 4px solid #004b23;
+	
+}
+.tyhb:hover{
+	transition: 2s;
+	background-color: #006400;
+	
 }
 
 .tyhb img{
-	width: 200px;
+	width: 150px;
+	
 	
 }
 .tecnologia img{
@@ -133,24 +172,60 @@ background-color: #ffc8dd;
 .a img{
 	width: 150px;
 }
-.capacitaciones{
-	background-color: #3b60e4;
-	color: #eee;
+.habilidades .card{
+	border: 6px solid #006400;
+	border-radius: 50%;
 }
+.habilidades .card:hover{
+	transition: 2.2s;
+	border: 6px solid #9ef01a;
+}
+.capacitaciones{
+	background-color: #004b23;
+	color: #eee;
+	
+}
+.capacitaciones:hover{
+	transition: 3s;
+	background-color: #007200;
+}
+
 .capacitaciones img{
 	width: 150px;
 	
 }
+.capacitaciones .card{
+	color: #eee;
+	background-color: #006400;
+
+	border: 8px solid #006400;
+	
+}
+.capacitaciones .card:hover{
+	color: #000;
+	background-color: #ccff33;
+
+	transition: 1.5s;
+	border: 8px solid #ccff33;
+	border-radius: 10%;
+}
+.capacitaciones li:hover{
+	color: #000;
+	transition: 1.5s;
+	background-color: #ccff33
+
+}
 .contacto{
-	background-color: #0f868b;
+	background-color: #004b23;
 	color: #eee ;
 	border-radius: 16%;
-	border-top: 8px solid #eee;
-	border-bottom: 8px solid #eee;
+	border-top: 8px solid #004b23;
+	border-bottom: 8px solid #004b23;
 
 }
 .contacto:hover{
 	transition: 2s;
-			border-top: 8px solid #0f868b;
-	border-bottom: 8px solid #0f868b;
+	background-color: #007200;
+			border-top: 8px solid #007200;
+	border-bottom: 8px solid #007200;
 }
