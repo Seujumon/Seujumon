@@ -8,7 +8,8 @@ body{
     	max-width: 70em;
     	background-image: url("../img/code-square.svg");
     	background-color: #004b23;
-    	background-size: 15%;
+    	background-size: 100%;
+    	background-position-y: 50%;
 
 
     	
@@ -139,6 +140,16 @@ background-color: #006400;
 	border: 4px solid #f7b801;
 	transition: 1s;
 	cursor: hand;
+}
+.proyicon{
+	background-color: transparent;
+
+	border-radius: 50%;
+}
+.proyicon:hover{
+	transition: 0.7s;
+	background-color: rgba(3, 250, 26, 0.3);
+
 }
 .tyhb{
 	background-color: #004b23;
