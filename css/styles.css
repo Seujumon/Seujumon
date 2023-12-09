@@ -6,14 +6,11 @@
 body{
 		margin: 0 auto;
     	max-width: 70em;
-    	background-image: url("../img/code-square.svg");
+    	/*background-image: url("../img/code-square.svg");*/
     	background-color: #004b23;
     	background-size: 100%;
     	background-position-y: 50%;
-
-
-    	
-	}
+}
 Header{
 	color: #eee ;
 }
@@ -95,7 +92,7 @@ Footer{
 	
 	border-left: 4px solid #004b23;
 	border-right: 4px solid #004b23;
-	
+	transition: 1s;
 		
 }
 .aboutme:hover{
@@ -123,7 +120,7 @@ background-color: #006400;
 	color: #eee;
 		
 	
-
+	transition: 1s;
 	border-radius: 5%;
 }
 .proyectos:hover{
@@ -155,6 +152,7 @@ background-color: #006400;
 	background-color: #004b23;
 	color: #eee ;
 	border: 4px solid #004b23;
+	transition: 1s;
 	
 }
 .tyhb:hover{
@@ -176,6 +174,7 @@ background-color: #006400;
 	border-radius: 35%;
 	background-color: white;
 	border: 2px solid rgba(126, 122 , 18, 0.6);
+	transition: 1s;
 }
 .tecnologia .btn:hover{
 	border: 2px solid rgba(212, 192 , 48, 0.6);
@@ -186,6 +185,7 @@ background-color: #006400;
 .habilidades .card{
 	border: 6px solid #006400;
 	border-radius: 50%;
+	transition: 1s;
 }
 .habilidades .card:hover{
 	transition: 2.2s;
@@ -194,7 +194,7 @@ background-color: #006400;
 .capacitaciones{
 	background-color: #004b23;
 	color: #eee;
-	
+	transition: 1.5s;
 }
 .capacitaciones:hover{
 	transition: 3s;
@@ -208,7 +208,7 @@ background-color: #006400;
 .capacitaciones .card{
 	color: #eee;
 	background-color: #006400;
-
+transition: 1.5s;
 	border: 8px solid #006400;
 	
 }
@@ -232,7 +232,7 @@ background-color: #006400;
 	border-radius: 16%;
 	border-top: 8px solid #004b23;
 	border-bottom: 8px solid #004b23;
-
+transition: 1.5s;
 }
 .contacto:hover{
 	transition: 2s;
