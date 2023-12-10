@@ -28,22 +28,48 @@ Footer{
 .navbar-brand{
 	color: #f4f3ee;
 }
+.navi a{
+	color: #ffffff;
+	transition: 0.3s;
+}
+.navi a:hover{
+	color: #aaaaaa;
+	border-bottom: 4px solid #999;
+	transition: 0.3s;
+}
+
+#up{
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	
+	padding: 0;
+	margin: 0;
+
+}
+#up a{
+	text-decoration: none;
+	color: #333;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+}
 
 .titulo{
 	background-image: url("../img/fondo3.jpg");
 	background-size: 100%;
 	background-position-y: 50%;
-	
+	transition: 1.5s;
 	color: #eee;
 	text-transform: uppercase;
-	border: 8px solid #333;
-	border-radius: 0 0 25% 25% ;
+	border: 4px solid #333;
+	border-radius: 0 0 1% 1% ;
 		
 }
 .titulo:hover{
 	transition: 3s ;
-	border: 8px solid #38b000;
-	border-radius: 0 0 25% 25% ;
+	border: 4px solid #f7b801;
+	border-radius: 0 0 2% 2% ;
 	 
 }
 .titulo img{
@@ -52,10 +78,12 @@ Footer{
 	border-radius: 50%; /*rounded-circle es la clase de Bootstrap que redondea la img */
 	margin: 20px;
 	border: 6px solid #222;
-
+	transition: 2s;
 
 
 }
+
+
 .foto{
 	width: 200px;
 	height: 200px;
@@ -65,14 +93,22 @@ Footer{
 	background-image: url("../img/foto.jpg");
 	background-size: 100%;
 	background-position-y: 50%;
+	transition: 2s;
 }
 
 .foto:hover{
-	transition: 3s;
-	background-color: #f18701;
+	transition: 2s;
+	/*background-color: #f18701;*/
 	background-image: url("../img/foto2.png");
+	
 	background-size: 100%;
 	background-position-y: 50%;
+}
+#fotop{
+	transition: 1s;
+}
+#fotop:hover{
+	transition: 1s;
 }
 
 
@@ -83,82 +119,83 @@ Footer{
 }
 
 .titulo img:hover{
-	transition: 5s ; 
+	transition: 2s ; 
 }
 
 .aboutme{
-	background-color: #004b23;
+	background-color: #333;
 	color: #ddd;
 	
-	border-left: 4px solid #004b23;
-	border-right: 4px solid #004b23;
+	border-left: 4px solid #555;
+	border-right: 4px solid #555;
 	transition: 1s;
 		
 }
 .aboutme:hover{
-background-color: #006400;
+background-color: #222;
 	color: #eee;
-	border-left: 4px solid #70e000;
-	border-right: 4px solid #70e000;
-	border-radius: 10%;
+	border-left: 4px solid #f7b801;
+	border-right: 4px solid #f7b801;
+	
 	transition: 1s;
 }
 .aboutme img{
-	width: 350px;
-	border-radius: 30%;
-
-	border: 8px solid #006400;
+	max-width: 250px;
+	border-radius: 2%;
+	transition: 2s;
+	border: 4px solid #333;
 
 }
 .aboutme img:hover{
 	transition: 3s;
 	
-	border: 8px solid #f7b801;
+	border: 4px solid #f7b801;
 }
 .proyectos{
-	background-color: #004b23;
+	background-color: #333;
 	color: #eee;
 		
 	
 	transition: 1s;
-	border-radius: 5%;
+	border-radius: 1%;
 }
 .proyectos:hover{
-	background-color: #008000;
+	background-color: #222;
 	transition: 2.5s;
 
 	
 }
 .proy{
-	border: 4px solid #007200;
-	border-radius: 16%;
+	border-radius: 1%;
+	transition: 1s;
+	padding: 0.5em;
+	background-color: #444;
+	color: #eee;
+}
+.proy img{
+	max-height: 8em;
+	
 }
 .proy:hover{
-	border: 4px solid #f7b801;
+	
 	transition: 1s;
-	cursor: hand;
+	
+	background-color: #222;
 }
-.proyicon{
-	background-color: transparent;
-
-	border-radius: 50%;
-}
-.proyicon:hover{
-	transition: 0.7s;
-	background-color: rgba(3, 250, 26, 0.3);
-
+.card-footer{
+	background-color: #eee;
 }
 .tyhb{
-	background-color: #004b23;
+	background-color: #333;
 	color: #eee ;
-	border: 4px solid #004b23;
+	border: 4px solid #333;
 	transition: 1s;
 	
 }
 .tyhb:hover{
 	transition: 2s;
-	background-color: #006400;
-	
+	background-color: #222;
+	border: 4px solid #f7b801;
 }
 
 .tyhb img{
@@ -179,26 +216,34 @@ background-color: #006400;
 .tecnologia .btn:hover{
 	border: 2px solid rgba(212, 192 , 48, 0.6);
 }
+.btn-tec{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.btn-tec img{
+	max-width: 80px;
+}
 .a img{
 	width: 150px;
 }
 .habilidades .card{
-	border: 6px solid #006400;
+	border: 6px solid #143642;
 	border-radius: 50%;
 	transition: 1s;
 }
 .habilidades .card:hover{
 	transition: 2.2s;
-	border: 6px solid #9ef01a;
+	border: 6px solid #f7b801;
 }
 .capacitaciones{
-	background-color: #004b23;
+	background-color: #444;
 	color: #eee;
 	transition: 1.5s;
 }
 .capacitaciones:hover{
 	transition: 3s;
-	background-color: #007200;
+	background-color: #222;
 }
 
 .capacitaciones img{
@@ -207,17 +252,17 @@ background-color: #006400;
 }
 .capacitaciones .card{
 	color: #eee;
-	background-color: #006400;
+	background-color: #444;
 transition: 1.5s;
-	border: 8px solid #006400;
+	border: 4px solid #444;
 	
 }
 .capacitaciones .card:hover{
-	color: #000;
-	background-color: #ccff33;
+	color: #eee;
+	background-color: #222;
 
 	transition: 1.5s;
-	border: 8px solid #ccff33;
+	border: 4px solid #f7b801;
 	border-radius: 10%;
 }
 .capacitaciones li:hover{
@@ -226,17 +271,24 @@ transition: 1.5s;
 	background-color: #ccff33
 
 }
+.capacitaciones .btn{
+	margin-top: 8px;
+}
+.modal-body{
+	color: #333;
+}
 .contacto{
-	background-color: #004b23;
+	background-color: #444;
 	color: #eee ;
-	border-radius: 16%;
-	border-top: 8px solid #004b23;
-	border-bottom: 8px solid #004b23;
+	border-radius: 1%;
+	border-top: 4px solid #333;
+	border-bottom: 4px solid #333;
 transition: 1.5s;
 }
 .contacto:hover{
 	transition: 2s;
-	background-color: #007200;
-			border-top: 8px solid #007200;
-	border-bottom: 8px solid #007200;
+	background-color: #333;
+			border-top: 4px solid #f7b801;
+	border-bottom: 4px solid #f7b801;
 }
+

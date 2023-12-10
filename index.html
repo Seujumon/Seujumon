@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	<!--CSS-->	
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/cards.css">
 </head>
 <body>
 
@@ -22,7 +23,7 @@
 			<nav class="navbar navv fixed-top container-fluid p-0">
 				<a class="navbar-brand" href="#Inicio">
 				<span class=" mx-3 navbar-brand h1"><img src="img/favicon-32x32.png">Juan Seura </span></a>
-				<div class="">
+				<div class="navi">
 					<a class="navbar-brand" href="#AboutMe">AboutMe</a>
 					<a class="navbar-brand" href="#Proyectos">Proyectos</a>
 					<a class="navbar-brand" href="#Tecnologias">Tecnologías y Habilidades</a>
@@ -30,6 +31,14 @@
 					<a class="navbar-brand" href="#Contacto">Contacto</a>
 				</div>
 			</nav>
+			<!--
+			Botón
+			-->
+<div class="position-fixed bottom-0 end-0 mb-3 me-3">
+      <button class="btn btn-warning py-2 d-flex align-items-center justify-content-center" id="up" type="button" >
+        <a href="#Inicio">^</a></button>
+    </div>
+    
 	<!--Header -->
 
 	<header class="mx-4">
@@ -38,13 +47,14 @@
 			<div class="pb-3" id="Inicio" name="Inicio" >
 				<div class="card p-3 titulo">
 				  <div class="card-body p-5 d-flex flex-column">
-				  	<!--
+				  <!--
 				    <div class="d-flex flex-column justify.content.center align-items-center">
-				  		<img onmouseout="this.src='img/foto.jpg';" onmouseover="this.src='img/foto2.png';" src="img/foto.jpg">
+				  		<img onmouseout="this.src='img/foto.jpg';" onmouseover="this.src='img/foto2.png';" src="img/foto.jpg" id="fotop">
 				  	</div>
-				  -->
+				   	-->	
+				  
 				  	<div class="foto" id="foto">
-				  		
+				 
 				  	</div>
 				    <h1 class="card-title text-center p-2">Hola, soy Juan Seura</h5>
 				    <p class="card-text text-center p-2">Un Entusiasta Programador Backend Junior en busca de nuevos aprendizajes y retos.</p>
@@ -65,9 +75,33 @@
 			<div class="px-3 mx-5 my-3">
 				<h2 class=""> Acerca de mi </h2>
 				<p class="text-justify"> Soy un un entusiasta desarrollador backend jr en busca de nuevos retos. Mi experiencia y estudios son como programador Full Stack, pero mi especialidad y pasión radican en el desarrollo Back End. Con habilidades en Java, GitHub, MySQL y la creación de sitios web con HTML, CSS y JavaScript, puedo construir soluciones técnicas innovadoras y escalables. Además, me siento cómodo trabajando con IDEs como NetBeans, Eclipse y Visual Studio Code para agilizar el desarrollo. Crear proyectos funcionales y eficientes es lo que más me motiva en mi carrera. </p>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				  +
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h1 class="modal-title fs-5" id="exampleModalLabel"> Acerca de mi </h1>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				      </div>
+				      <div class="modal-body">
+				      	<h2 class=""> Acerca de mi </h2>
+				        <p class="text-justify"> Soy un un entusiasta desarrollador backend jr en busca de nuevos retos. Mi experiencia y estudios son como programador Full Stack, pero mi especialidad y pasión radican en el desarrollo Back End. Con habilidades en Java, GitHub, MySQL y la creación de sitios web con HTML, CSS y JavaScript, puedo construir soluciones técnicas innovadoras y escalables. Además, me siento cómodo trabajando con IDEs como NetBeans, Eclipse y Visual Studio Code para agilizar el desarrollo. Crear proyectos funcionales y eficientes es lo que más me motiva en mi carrera. </p>
 				<p>Sumado a mis conocimientos técnicos, tengo una amplia experiencia en otras áreas de trabajo que han enriquecido mi perfil profesional. He tenido la oportunidad de enseñar en el nivel secundario, lo que me ha permitido desarrollar habilidades de comunicación efectiva y adaptabilidad, ya que cada estudiante es único y aprende de manera diferente. Como planificador de eventos, he perfeccionado mi capacidad para trabajar bajo presión y gestionar proyectos complejos, lo que ha sido invaluable en mi carrera de programador.</p>
 				<p>Estoy emocionado por formar parte de equipos ambiciosos y colaborativos con quienes compartir la pasión por la innovación y el desarrollo tecnológico.</p>
 			</div>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+
 
 			<div class="ms-1 my-3 px-3 d-flex justify-content-center align-items-center">
 				<img src="img/aboutme.jpg">
@@ -82,9 +116,136 @@
 		<div class="mx-5 p-5 d-flex flex-column proyectos" id="Proyectos" name="Proyectos">
 			<div class="d-flex flex-column pt-1">
 				<h2 class="text-center pb-4 "  >Proyectos</h2>
+
 			</div>
+			
+			<div class=" row row-cols-1 row-cols-md-3 g-4 wrap">
+				<div class="card proy">
+				    <img src="img/proyectounamano.png" class="card-img-top" alt="...">
+				    <div class="card-body">
+			      
+
+			      <h3 class="card-title text-center ">Una Mano(En Proceso)</h3>
+
+			      <p class="card-text collapse" id="unamanotxt">Construcción en equipo de la api-rest backend para un sitio de servicios para adultos mayores. Para el backend trabajamos con Java, Spring Boot, y MySQL, SpringSecurity y Swagger para la documentación para el frontend. Organizamos las tareas de cada sprint mediante Jira, y Postman e Insomnia para las pruebas, implementando SCRUM.</p>
+				
+				    </div>
+				    <div class="card-footer text-right d-flex align-items-center justify-content-center">
+
+			    <a class="btn btn-warning" data-bs-toggle="collapse" href="#unamanotxt" role="button" aria-expanded="false" aria-controls="unamanotxt">
+			      	+	
+
+			      </a>
+				     	<a href="https://github.com/No-Country/s12-13-n-java-vue" target="_blank">
+						<i class="bi bi-github fs-1  text-dark proyicon p-2 mx-2"></i></a>
+						
+				    </div>
+				</div>  
+				<div class="card proy">
+				    <img src="img/proyectospringbank.png" class="card-img-top" alt="...">
+				    <div class="card-body">
+			      
+				    	<h3 class="card-title text-center ">Spring Bank</h5>
+			  
+			      <p class="card-text collapse" id="springbanktxt">Construcción en equipo de la api-rest backend que simula operaciones bancarias. Para el backend trabajamos con Java, Spring Boot, y MySQL, organizando las tareas mediante Jira, y Postman e Insomnia para las pruebas. </p>
+				
+				    </div>
+				    <div class="card-footer text-right d-flex align-items-center justify-content-center">
+				    	<a class="btn btn-warning" data-bs-toggle="collapse" href="#springbanktxt" role="button" aria-expanded="false" aria-controls="springbanktxt">
+			      	+
+
+			      </a>
+				     	<a href="https://github.com/No-Country/c14-35-n-java-react" target="_blank">
+						<i class="bi bi-github fs-1  text-dark proyicon p-2 mx-2"></i></a>
+						<a href="https://www.youtube.com/watch?v=UnjYvR_euFw&t=49s" target="_blank">
+					<i class="bi bi-youtube fs-1 text-danger proyicon p-2 mx-2"></i></a>
+				    </div>
+				</div>    
+				<div class="card proy">
+			    <img src="img/proyectolearningsimplified.png" class="card-img-top" alt="...">
+			    <div class="card-body">
+			      <h3 class="card-title text-center ">Learning Simplified</h5>
+
+			      <p class="card-text collapse" id="learningtxt">Construcción en equipo de la api-rest backend para un sitio web dedicado a la venta de cursos en linea. Para el backend trabajamos con Java, Spring Boot, y MySQL siguiendo metodologías ágiles mediante SCRUM. </p>
+				
+			    </div>
+			    <div class="card-footer text-right d-flex align-items-center justify-content-center">
+
+			    <a class="btn btn-warning" data-bs-toggle="collapse" href="#learningtxt" role="button" aria-expanded="false" aria-controls="learningtxt">
+			      	+	
+
+			      </a>
+			     	<a href="https://github.com/No-Country/c14-35-n-java-react" target="_blank">
+					<i class="bi bi-github fs-1  text-dark proyicon p-2 mx-2"></i></a>
+					<a href="https://learning-simplified.vercel.app/courses" target="_blank">
+					<i class="bi bi bi-upload fs-1 proyicon p-2 mx-2-"></i></a>
+					<a href="https://youtu.be/SBvc5XLWcC0?si=BN-HQmGQnPCIoBEV" target="_blank">
+					<i class="bi bi-youtube fs-1 text-danger proyicon p-2 mx-2"></i></a>
+			    </div>
+			  </div>
+			  <div class="card proy">
+			    <img src="img/proyectoconversor.png" class="card-img-top" alt="...">
+			    <div class="card-body">
+			      
+			    	<h3 class="card-title text-center ">Conversor</h3>
+			   
+			      <p class="card-text collapse"  id="conversorTxt">Conversor realizado con Java, consumiendo una api externa para obtener datos actualizados, y mediante ENUM para manejar valores constantes. Interface Gráfica con Java Swing.</p>
+				
+			    </div>
+			    <div class="card-footer text-right d-flex align-items-center justify-content-center">
+			    	 <a class="btn btn-warning" data-bs-toggle="collapse" href="#conversorTxt" role="button" aria-expanded="false" aria-controls="conversorTxt">
+			      	+	
+
+			      </a>
+			     	<a href="https://github.com/Seujumon/Challenge-Conversor" target="_blank">
+					<i class="bi bi-github fs-1  text-dark proyicon p-2 mx-2"></i></a>
+			    </div>
+			  </div>
+			  <div class="card proy">
+			    <img src="img/proyectosludoteca.png" class="card-img-top" alt="...">
+			    <div class="card-body">
+			    	<h3 class="card-title text-center ">Ludoteca</h3>
+			      
+			      <p class="card-text collapse"  id="ludotecaTxt">Java Web Project para administrar el catálogo de una ludoteca, manejando la lógica con Java, la base de datos con JDBC y MySQL, y la interface gráfica realizada con HTML, JSP y Bootstrap.</p>
+			    </div>
+			    <div class="card-footer text-right d-flex align-items-center justify-content-center">
+			    	<a class="btn btn-warning" data-bs-toggle="collapse" href="#ludotecaTxt" role="button" aria-expanded="false" aria-controls="ludotecaTxt">
+			      	+	
+
+			      </a>
+			      <a href="https://github.com/Seujumon/Ludoteca_JEVO" target="_blank">
+							<i class="bi bi-github fs-1 text-dark proyicon p-2 mx-2"></i></a>
+							<a href="https://www.youtube.com/watch?v=_-QkfPCw8IA" target="_blank">
+							<i class="bi bi-youtube fs-1 text-danger proyicon p-2 mx-2"></i></a>
+			    </div>
+			  </div>
+			  <div class="card proy">
+			    <img src="img/proyectoencriptador.png" class="card-img-top" alt="...">
+			    <div class="card-body">
+			    	<h3 class="card-title text-center ">Encriptador</h3>
+			      
+			      <p class="card-text collapse"  id="encriptadorTxt">Encriptador de mensajes realizado con HTML, CSS, JavaScript y Bootstrap. </p>
+			    </div>
+			    <div class="card-footer text-right d-flex align-items-center justify-content-center">
+			      <a href="https://github.com/Seujumon/Encriptador-Ch" target="_blank">
+			      	<a class="btn btn-warning " data-bs-toggle="collapse" href="#encriptadorTxt" role="button" aria-expanded="false" aria-controls="encriptadorTxt">
+			      	+	
+
+			      </a>
+			      <a href="https://github.com/Seujumon/Encriptador-Ch" target="_blank">
+							<i class="bi bi-github fs-1  text-dark proyicon p-2 mx-2"></i></a>
+							<a href="https://seujumon.github.io/Encriptador-Ch/" target="_blank">
+							<i class="bi bi bi-upload fs-1 proyicon p-2 mx-2-"></i>
+						</a>
+			    </div>
+			  </div>
+			</div>
+
 			<!--Tarjetas-->
 			<!--TODO Agregarles un botón con un link a github y, si el proy está deployado también-->
+
+
+			<!--
 			<div>
 				<div class="row row-cols-1 row-cols-md-3 g-4">
 				  <div class="col">
@@ -130,6 +291,7 @@
 				      </div>
 				    </div>
 				  </div>
+				-->
 				  <!--
 				  <div class="col">
 				    <div class="card p-4 proy">
@@ -154,14 +316,23 @@
 			</div>	
 			<!--Botones-->
 			<div>
-				<div class="tecnologia d-flex  justify-content-center wrap" role="group" aria-label="Basic example">
-				  <button type="button" class="btn btn-light mx-1"><img src="img/javalogo.png"></button>
-				  <button type="button" class="btn btn-light mx-1"><img src="img/mysqllogo.png"></button>
-				  <button type="button" class="btn btn-light mx-1"><img src="img/html-5.png"></button>
-				  <button type="button" class="btn btn-light mx-1"><img src="img/css.png"></button>
-				  <button type="button" class="btn btn-light mx-1"><img src="img/javascriptlogo.png"></button>
-				  <button type="button" class="btn btn-light mx-1"><img src="img/bootstrap.png"></button>
-				  <button type="button" class="btn btn-light"><img src="img/githublogo.png"></button>
+				<div class="row row-cols-md-4 mt-4 g-2 justify-content-center wrap" role="group" aria-label="Basic example">
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/javalogo.png"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/springlogo.png"></button>
+
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/mysqllogo.png"></button>
+				 
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/postmanlogo.png"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/insomnialogo.svg"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/mantislogo.png"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/testlinklogo.png"></button>
+				   <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/jiralogo.png"></button>
+				    <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/trellologo.png"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/html-5.png"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/css.png"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/javascriptlogo.png"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/bootstrap.png"></button>
+				  <button type="button" class="btn btn-light mx-1 btn-tec"><img src="img/githublogo.png"></button>
 
 				</div>
 			</div>
@@ -245,39 +416,151 @@
 				<h2 class="text-center pb-4" >Formación</h2>
 			</div>	
 			<div class="row row-cols-md-3 g-2 justify-content-center">
-  				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
-  					<img class="img-fluid" src="img/argentinaprogramalogo.png">
+				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
+					<img class="img-fluid" src="img/argentinaprogramalogo.png">
   					<h5 class="text-center py-1">Argentina Programa - EGG</h5>
   						<h3 class="text-center py-1">Programador Full-Stack Junior </h3>
-  						<h4 class="text-center py-1">Contenidos:</h4>
-  						<p class="text-center py-1">Java - GitHub - MySQL - HTML - CSS - JavaScript - React - Spring Boot</p>
-  						<p class="text-center py-1">En curso</p>
-  					
-  				</div>
-  				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
-  					<img src="img/codoacodologo.png">
+					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#apModal">
+					  +
+					</button>
+					<div class="modal fade" id="apModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header flex-column">
+					       
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body">
+					         <img class="img-fluid" src="img/argentinaprogramalogo.png">
+		  					<h5 class="text-center py-1">Argentina Programa - EGG</h5>
+		  						<h3 class="text-center py-1">Programador Full-Stack Junior </h3>
+		  						<h4 class="text-center py-1">Contenidos:</h4>
+		  						<p class="text-center py-1">Java - GitHub - MySQL - HTML - CSS - JavaScript - React - Spring Boot</p>
+		  						<p class="text-center py-1">Concluído</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
+					<img class="img-fluid" src="img/argentinaprogramalogo.png">
+  					<h5 class="text-center py-1">Argentina Programa - UTN</h5>
+  						<h3 class="text-center py-1">Testing Avanzado </h3>
+					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#aptest">
+					  +
+					</button>
+					<div class="modal fade" id="aptest" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header flex-column">
+					       
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body">
+					         <img class="img-fluid" src="img/argentinaprogramalogo.png">
+		  					<h5 class="text-center py-1">Argentina Programa - UTN</h5>
+		  						<h3 class="text-center py-1">Testing Avanzado </h3>
+		  						<h4 class="text-center py-1">Contenidos:</h4>
+		  						<p class="text-center py-1">TestLink - Mantis Bug Tracker - Testing con Herramientas de desarrollador de Google Chrome</p>
+		  						<p class="text-center py-1">Concluído</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
+				<img src="img/codoacodologo.png">
   					<h5 class="text-center py-1">Codo a Codo</h5>
   					<h3 class="text-center py-1">Full-Stack Java</h3>
-  					<h4 class="text-center py-1">Contenidos:</h4>
+					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#cacJava">
+					  +
+					</button>
+					<div class="modal fade" id="cacJava" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header flex-column">
+					       
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body">
+					        <img src="img/codoacodologo.png">
+  					<h5 class="text-center py-1">Codo a Codo</h5>
+  					<h3 class="text-center py-1">Full-Stack Java</h3>
+		  						<h4 class="text-center py-1">Contenidos:</h4>
   					<p class="text-center py-1"> Java - GitHub - MySQL - HTML - CSS - JavaScript - Bootstrap</p>
   					<p class="text-center py-1">Concluído</p>
-  				</div>
-  				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
-  					<img src="img/ONElogo.png">
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
+					<img src="img/ONElogo.png">
+  					<h5 class="text-center py-1">ONE- Oracle - AluraLatam</h5>
+  						<h3 class="text-center py-1">Especialización BackEnd Java</h3>
+					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#oracleModal">
+					  +
+					</button>
+					<div class="modal fade" id="oracleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header flex-column">
+					       
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body">
+					       <img src="img/ONElogo.png">
   					<h5 class="text-center py-1">ONE- Oracle - AluraLatam</h5>
   						<h3 class="text-center py-1">Especialización BackEnd Java</h3>
   						<h4 class="text-center py-1">Contenidos:</h4>
   						<p class="text-center py-1">Java - Spring Boot-  GitHub -  HTML - CSS - JavaScript - SoftSkills - Metodologías Ágiles - Startups y Emprendimientos </p>
-  						<p class="text-center py-1">En curso</p>
-  				</div>
-  				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
-  					<img src="img/codoacodologo.png">
+  						<p class="text-center py-1">Concluído</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="card mx-2 col p-4 d-flex flex-column justify.content.center align-items-center">
+						<img src="img/codoacodologo.png">
+  					<h5 class="text-center py-1">Codo a Codo</h5>
+  						<h3 class="text-center py-1">Especialización Spring</h3>
+					<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#cacSpring">
+					  +
+					</button>
+					<div class="modal fade" id="cacSpring" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header flex-column">
+					       
+					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					      </div>
+					      <div class="modal-body">
+					       <img src="img/codoacodologo.png">
   					<h5 class="text-center py-1">Codo a Codo</h5>
   						<h3 class="text-center py-1">Especialización Spring</h3>
   						<h4 class="text-center py-1">Contenidos:</h4>
   						<p class="text-center py-1">Java - Spring - Spring Boot - Hibernate -Git - Postman - RestApi - MySQL</p>
   						<p class="text-center py-1">En curso</p>
-  				</div>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
   				
   			</div>
   			<!--TODO puede ser un desplegable-->
@@ -292,7 +575,6 @@
   					<li>Introducción a los Algoritmos y la Programación - Todo Code</li>
   				</ul>
   			</div>
-  			
 		</div>	
 
 
@@ -352,7 +634,7 @@
 							   <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
 							   <label class="form-check-label" for="exampleCheck1">Al hacer clic acepta que me comunique con usted únicamente por las razones que figuran en el formulario, y los datos introducidos no serán divulgados ni usados con ningún otro fin.</label>
 							</div>
-							  <button type="submit" class="btn btn-danger">Enviar</button>
+							  <button type="submit" class="btn btn-warning">Enviar</button>
 							  <input type="hidden" name="_next" 
 							  value="https://seujumon.github.io/Seujumon">
 							  <input type="hidden" name="_captcha" value="false">
