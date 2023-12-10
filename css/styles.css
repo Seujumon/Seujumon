@@ -28,6 +28,10 @@ Footer{
 .navbar-brand{
 	color: #f4f3ee;
 }
+.navbar img{
+	width: 32px;
+	height: 32px;
+}
 .navi a{
 	color: #ffffff;
 	transition: 0.3s;
